@@ -1,0 +1,76 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@~1.2.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console@~1.0.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar@~1.0.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "phonegap-plugin-push": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-push@~1.8.0"
+        },
+        "is_top_level": true,
+        "variables": {
+            "SENDER_ID": "1058444389453"
+        }
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-apprate": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-apprate"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-dialogs"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-globalization": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-globalization"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-themeablebrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-themeablebrowser"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

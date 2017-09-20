@@ -1,0 +1,34 @@
+﻿<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left home-btn">
+            <a href="index.html" class="link">
+                <i class="typcn typcn-home"></i>
+            </a>
+        </div>
+        <div class="center sliding">Upgrade Account</div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="upgrade" class="page">
+        <div class="page-content">
+            <div class="content-block-inner" id="upgrade-container">
+            	<p>Get unlimited account management for $4.99 per month.</p>
+            	<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_xclick-subscriptions">
+				  <input type="hidden" name="item_number" value="membership-01">
+				  <input type="hidden" name="custom" value="<?php echo $_REQUEST['user'];?>">
+				  <input type="hidden" name="item_name" value="App Membership">
+				  <input type="hidden" name="business" value="sales@tourneyx.com">
+				  <input type="hidden" name="a3" value="4.99">
+				  <input type="hidden" name="p3" value="1">
+				  <input type="hidden" name="t3" value="M">
+				  <input type="hidden" name="src" value="1">
+				  <input type="hidden" name="sra" value="6">
+				  <input type="hidden" name="return" value="<?php echo SITE_URL;?>/subscribe/thank-you">
+				  <input type="hidden" name="notify_url" value="<?php echo SITE_URL;?>/lib/php/paypal/angler_subscribe_listener.php">
+				  <button type="button" class="btn btn-lg btn-primary UpgrageAcct">Upgrade Your Account</button>
+				</form>            	
+            </div>
+      	</div>
+    </div>
+</div>
