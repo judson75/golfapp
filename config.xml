@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.loanzapper.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GolfApp</name>
+    <description>
+       
+    </description>
+    <author email="judsonc75@gmail.com" href="http://cordova.io">
+        
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <splash src="splash.png" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="orientation" value="portrait" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
+    <plugin name="cordova-plugin-apprate" />
+        <variable name="SENDER_ID" value="1058444389453" />
+    </plugin>
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="14" />
+        <allow-intent href="market:*" />
+		<icon src="www/lib/icon/android/icon.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="BackupWebStorage" value="none" />
+		<icon src="www/lib/icon/ios/icon.png" />
+	</platform>
+    <platform name="wp8">
+    </platform>
+    <platform name="windows">    
+    </platform>
+</widget>
