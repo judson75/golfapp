@@ -379,7 +379,7 @@ function initMap() {
 			}
 			else {
 				//$('#map-info').html("You are currently " +  proximitymiles + " miles away from Patricia Island Estates");
-				document.getElementById('map-info').innerHTML = "You are currently " +  Math.round(proximitymiles) + " miles away from Patricia Island Estates";
+				document.getElementById('map-info').innerHTML = "<h3>Notice</h3><p>You are currently " +  Math.round(proximitymiles) + " miles away from Patricia Island Estates</p>";
 			}
 		}, function() {
 			handleLocationError(true, infoWindow, map.getCenter());

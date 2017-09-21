@@ -666,7 +666,7 @@ input[type=radio]:checked + label:before { letter-spacing: 5px; } /* allow space
 	padding: 0 15px !important;
 }
 
-.content-block-inner:before {
+.content-block-inner:before, .content-block-inner:after {
 	height: 0 !important;
 }
 
